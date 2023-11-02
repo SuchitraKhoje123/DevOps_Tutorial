@@ -3,7 +3,7 @@ var app=express()
 
 app.get('/api',(req,res)=>{res.send("hello COmpany!!")})
 
-app.listen(3000,()=>console.log("server is running at 800"));
+app.listen(3000,()=>console.log("server is running at 3000"));
 
 
 // const fs =  require('fs');
