@@ -1,9 +1,9 @@
 var express=require('express')
 var app=express()
 
-app.get('/api',(req,res)=>{res.send("hello COmpany!!")})
+app.get('/',(req,res)=>{res.send("hello COmpany!!")})
 
-app.listen(3000,()=>console.log("server is running at 3000"));
+app.listen(7000,()=>console.log("server is running at 7000"));
 
 
 // const fs =  require('fs');

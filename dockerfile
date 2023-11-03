@@ -1,5 +1,6 @@
-# Use an official Node.js runtime as a parent image
-FROM node:14
+# Use an official Nodemon.js runtime as a parent image
+FROM node:16-alpine
+
 
 # Set the working directory inside the container
 WORKDIR /Users/Suchitra/node-basic
@@ -14,4 +15,6 @@ RUN npm install
 COPY . .
 
 # Expose a port (if your application listens on a specific port)
-EXPOSE 3000
+EXPOSE 7000
+
+CMD node app.js
